@@ -2,6 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np 
 
+__all__ = [ 'artists_features_compara',
+            'similarities_features',
+          ]
 
 def artists_features_compara(df,artists_names, feature): 
 
@@ -41,9 +44,6 @@ def artists_features_compara(df,artists_names, feature):
     plt.show(block=False)
     plt.savefig('hist_proba_two_artists.png')
     plt.close("all")
-
-
-
 
 
 def similarities_features(df,artists_names,metric):
