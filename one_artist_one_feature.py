@@ -2,6 +2,10 @@ import statistics
 import matplotlib.pyplot as plt
 import numpy as np
 
+__all__ = [ 'summary_audio_feature',
+            'histogram_audio_feature_album',
+           ]
+
 def summary_audio_feature(df, feature, artist_name):
     """
     Brinda un resumen estadístico (mínimo, máximo, media) de los audio features de un artista en específico.
