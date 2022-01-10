@@ -1,3 +1,10 @@
+__all__ = [ 'count_tracks_artist',
+            'count_track_contain',
+           'count_tracks_years',
+           'track_popularity',
+           'artists_every_decade',
+           ]
+
 def count_tracks_artist(df,artist_name):
     """
     Calcula la cantidad de tracks de cierto artista
