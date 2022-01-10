@@ -1,4 +1,4 @@
-# Paquete Project
+# Paquete **pec4-mariavictoriadiaz**
 
 El paquete **pec4-mariavictoriadiaz** está creado para apoyar el proceso de selección de los artistas musicales más influyentes hasta el momento. 
 
