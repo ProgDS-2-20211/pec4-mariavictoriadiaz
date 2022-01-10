@@ -23,7 +23,7 @@ setup(name= "pec4-mariavictoriadiaz",
     url='https://github.com/ProgDS-2-20211/pec4-mariavictoriadiaz',
     keywords=["artists", "songs", "popularity", "audio features"],
     install_requires=["pandas==1.0.4", "matplotlib==3.2.1", "numpy==1.18.4", "scipy==1.4.1", "scikit.learn==0.23.1", "seaborn==0.10.1", "statistics==1.0.3.5"],
-    test_suite = 'pec4-mariavictoriadiaz.test',
+    test_suite = ['pec4-mariavictoriadiaz.test_statistics'´, 'pec4-mariavictoriadiaz.test_features'],
     classifiers=[
         'Development Status :: 1 - Alpha',
         'Topic :: Software Development :: Code Generators',
