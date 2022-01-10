@@ -19,7 +19,7 @@ class TestDataExpl(unittest.TestCase):
         self.assertEqual(track_popularity(self._df, 10), "Beggin'")
         self.assertEqual(artists_every_decade(self._df, 1960,7), ['Ennio Morricone', 'David Bowie'])
 
-    def features(self):
+    def test_features(self):
         print("Starting test_features_summary")
         mini, maxi, meani = summary_audio_feature(self._df, "energy", "Metallica")
         self.assertEqual(mini, 0.0533)
