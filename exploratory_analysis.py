@@ -1,3 +1,5 @@
+import pandas as pd
+
 __all__ = [ 'count_tracks_artist',
             'count_track_contain',
            'count_tracks_years',
