@@ -11,7 +11,7 @@ try:
 except Exception:
     long_description = ''
 
-setup(name= "Project",
+setup(name= "pec4-mariavictoriadiaz",
     packages=find_packages('.'), 
     version='1.0.0',
     license='3-BSD',
@@ -20,10 +20,10 @@ setup(name= "Project",
     long_description_context_type = 'text/markdown',
     author='Maria Victoria Diaz Lopez',
     author_email='mariav1445@gmail.com',     
-    url='',
+    url='https://github.com/ProgDS-2-20211/pec4-mariavictoriadiaz',
     keywords=["artists", "songs", "popularity", "audio features"],
     install_requires=["pandas==1.0.4", "matplotlib==3.2.1", "numpy==1.18.4", "scipy==1.4.1", "scikit.learn==0.23.1", "seaborn==0.10.1", "statistics==1.0.3.5"],
-    test_suite = 'Project.test',
+    test_suite = 'pec4-mariavictoriadiaz.test',
     classifiers=[
         'Development Status :: 1 - Alpha',
         'Topic :: Software Development :: Code Generators',
